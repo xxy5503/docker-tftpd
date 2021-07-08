@@ -1,8 +1,8 @@
-FROM ubuntu:14.04
+FROM ubuntu:stretch
 
 MAINTAINER owa
 
-RUN apt-get update && apt-get install -y tftpd-hpa && apt-get autoclean
+RUN apt-get update && apt-get install -y tftpd-hpa
 
 VOLUME /var/lib/tftpboot
 
