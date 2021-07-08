@@ -1,4 +1,4 @@
-FROM ubuntu:stretch
+FROM debian:stretch
 
 MAINTAINER owa
 
